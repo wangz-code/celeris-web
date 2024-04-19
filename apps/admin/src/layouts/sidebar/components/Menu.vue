@@ -87,7 +87,7 @@ const collapsedWidth = computed<number>(() => collapsed.value ? 64 : 300);
 </script>
 
 <template>
-  <div :class="collapsed ? 'w-16' : 'w-75'" class="transition-width h-full shrink-0 flex-col overflow-hidden duration-75">
+  <div :class="collapsed ? 'w-16' : 'w-60'" class="transition-width h-full shrink-0 flex-col overflow-hidden duration-75">
     <NScrollbar class="max-h-[calc(100vh_-_4rem)]">
       <NMenu
         v-model:value="activeMenu"

@@ -4,46 +4,46 @@
 </div>
 
 <div align='center'>
-<b>English</b> | <a href="README.zh-CN.md">简体中文</a>
+<a href="README.md">English</a>| <b>简体中文</b>
 </div>
 
-## Introduction
+## 简介
 
-Celeris Web is a free and open-source front-end development framework that utilizes the latest technologies, including Vue 3, Vite, and TypeScript. Its monorepo approach makes it easy to manage dependencies and collaborate on multiple projects, providing developers with a comprehensive solution for building modern web applications.
+Celeris Web是一个免费开源的前端开发框架，采用最新的技术，包括Vue 3、Vite和TypeScript。其monorepo方法使得依赖管理和多个项目的协作变得轻松，为开发人员提供了构建现代Web应用程序的全面解决方案。
 
-One of the standout features of Celeris Web is its integration with OpenAI's ChatGPT API, which provides access to powerful natural language processing capabilities. This integration allows developers to easily incorporate natural language processing into their applications, making it an ideal choice for projects that require this functionality.
+Celeris Web的一个特色是它与OpenAI的ChatGPT API集成，提供了强大的自然语言处理功能。此集成使得开发人员可以轻松地将自然语言处理集成到其应用程序中，是需要此功能的项目的理想选择。
 
-Whether you're a seasoned developer or just starting out, Celeris Web offers a streamlined front-end development process that leverages the latest tools and techniques.
+无论您是经验丰富的开发人员还是刚刚入门，Celeris Web都提供了一个简化的前端开发流程，利用最新的工具和技术。
 
-Get started with celeris-web today and experience a highly streamlined front-end development process that harnesses the power of the latest technologies, including cutting-edge natural language processing capabilities.
+立即开始使用Celeris Web，并体验高度简化的前端开发流程，利用最新技术，包括尖端自然语言处理功能。
 
-## Features
+## 特点
 
-- ⚡ [Lightning fast](https://github.com/kirklin/celeris-web#readme): Built with Vue 3, Vite, and pnpm 🔥
-- 💪 [Strongly typed](https://www.typescriptlang.org/): Uses TypeScript 💻
-- 📂 [Monorepo approach](https://en.wikipedia.org/wiki/Monorepo): Makes it easy to manage dependencies and collaborate on multiple projects 🤝
-- 🔥 [Latest syntax](https://github.com/vuejs/rfcs/pull/227): Uses the new <script setup> syntax 🆕
-- 📦 [Components auto importing](https://github.com/kirklin/celeris-web/blob/master/packages/node/vite/src/plugins/unpluginVueComponets.ts): Automatically imports components 🚚
-- 📥 [APIs auto importing](https://github.com/kirklin/celeris-web/blob/master/packages/node/vite/src/plugins/unpluginAutoImport.ts): Uses unplugin-auto-import to directly import Composition API and others 📨
-- 💡 [Official router](https://router.vuejs.org/): Uses Vue Router v4 🛣️
-- 🎉 [Loading feedback](https://github.com/rstacruz/nprogress): Uses NProgress to provide page loading progress feedback 🔄
-- 🍍 [State management](https://pinia.esm.dev/): Uses Pinia for state management 🗃️
-- 📜 [Chinese font preset](https://github.com/kirklin/unocss-preset-chinese): Includes a preset for Chinese fonts 🇨🇳
-- 🌍 [I18n ready](https://github.com/kirklin/celeris-web/tree/master/packages/web/locale): Ready for internationalization with locales 🌎
-- ☁️ [Netlify ready](https://www.netlify.com/): Zero-config deployment on Netlify ☁️
-- 🤖 Integration with [OpenAI's ChatGPT API](https://openai.com/https://openai.com/): for natural language processing 🤖
+- ⚡ [闪电般快速](https://github.com/kirklin/celeris-web#readme)：使用Vue 3，Vite和pnpm构建 🔥
+- 💪 [强类型](https://www.typescriptlang.org/)：使用TypeScript 💻
+- 📂 [单库存储](https://en.wikipedia.org/wiki/Monorepo)：易于管理依赖项和协作多个项目 🤝
+- 🔥 [最新语法](https://github.com/vuejs/rfcs/pull/227)：使用新的< script setup >语法 🆕
+- 📦 [自动导入组件](https://github.com/kirklin/celeris-web/blob/master/packages/node/vite/src/plugins/unpluginVueComponets.ts)：自动导入组件 🚚
+- 📥 [自动导入API](https://github.com/kirklin/celeris-web/blob/master/packages/node/vite/src/plugins/unpluginAutoImport.ts)：使用unplugin-auto-import直接导入Composition API和其他API 📨
+- 💡 [官方路由器](https://router.vuejs.org/)：使用Vue Router v4 🛣️
+- 🎉 [加载反馈](https://github.com/rstacruz/nprogress)：使用NProgress提供页面加载进度反馈 🔄
+- 🍍 [状态管理](https://pinia.esm.dev/)：使用Pinia进行状态管理 🗃️
+- 📜 [中文字体预设](https://github.com/kirklin/unocss-preset-chinese)：包含中文字体预设 🇨🇳
+- 🌍 [国际化就绪](https://github.com/kirklin/celeris-web/tree/master/packages/web/locale)：具备使用本地化的国际化功能 🌎
+- ☁️ [Netlify准备就绪](https://www.netlify.com/)：在Netlify上零配置部署 ☁️
+- 🤖 集成[OpenAI的ChatGPT API](https://openai.com/)：用于自然语言处理 🤖
 
-### Coding Style
+### 编码风格
 
 - [@kirklin/eslint-config](https://github.com/kirklin/eslint-config)
 
-### Recommended IDE Setup
+### 推荐的 IDE 设置
 
 - 🌪️ [WebStorm](https://www.jetbrains.com/webstorm/)
 - 💻 [VSCode](https://code.visualstudio.com/)
 - 💡 [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
-### [packages](packages) dependency relationship
+### [packages](packages)的依赖关系
 
 ```mermaid
  graph TD
@@ -98,21 +98,21 @@ Get started with celeris-web today and experience a highly streamlined front-end
 
 ```
 
-To update the diagram above edit the README file and open a new PR with the changes.
+要更新上面的图表，请编辑README文件，并在修改后打开一个新的PR。
 
-## Bilingual Comments in Code
+## 中英文双语注释
 
-In the design of Celeris Web, we emphasize the readability and learnability of the code. To achieve this, each function is equipped with bilingual comments in both Chinese and English, ensuring that developers, regardless of their native language, can easily understand and learn from the code.
+在Celeris Web的设计中，我们注重代码的可读性和学习性，为此，我们为每个函数都配备了中英文双语注释，以确保无论您的母语是中文还是英文，都能轻松理解和学习代码。
 
-**Why Choose Bilingual Comments?**
+**为什么选择中英文双语注释？**
 
-1. **Global Collaboration:** In multicultural teams, bilingual comments foster better communication and collaboration, ensuring that team members can accurately comprehend the functionality and implementation of the code.
+1. **全球协作：** 在多语言团队中，中英文双语注释能够促进更好的沟通和协作，确保团队成员都能准确理解代码的功能和实现。
 
-2. **Convenient Learning:** For beginners, bilingual comments provide a more user-friendly learning environment, aiding them in quickly grasping the logic and structure of the code.
+2. **学习便捷：** 对于新手来说，中英文双语注释提供了更友好的学习环境，帮助他们更快速地掌握代码的逻辑和结构。
 
-3. **Developer-Friendly:** We are committed to creating a developer-friendly environment, and bilingual comments are a crucial measure we've taken to achieve this goal.
+3. **开发者友好：** 我们致力于构建一个开发者友好的开发环境，中英文双语注释是我们为实现这一目标而采取的一项关键措施。
 
-**Example:**
+4. **示例：**
 
 ```typescript
    /**
@@ -135,67 +135,69 @@ In the design of Celeris Web, we emphasize the readability and learnability of t
    }
 ```
 
-Through these bilingual comments, we aim to provide developers with a more enjoyable and efficient coding experience, making Celeris Web a frontend template that is truly easy to pick up and dive into.
+通过这样的中英文双语注释，我们希望为开发者提供更愉悦、更高效的编码体验，让Celeris Web成为一个真正容易上手和深入学习的前端模板。
 
-## Benefits of Monorepo Design
+## Monorepo 设计的好处
 
-**1. Easier Dependency Management:** Monorepo centralizes the management of dependencies for all projects, avoiding version conflicts between different projects and making overall dependency management clearer and simpler.
+**1. 依赖管理更轻松：** Monorepo 将所有项目的依赖项集中管理，避免了不同项目之间版本冲突的问题，使得整体的依赖管理更加清晰和简便。
 
-**2. Code Sharing and Reusability:** Different projects can easily share and reuse code, reducing the workload of redundant development. This is highly beneficial for maintaining code consistency and improving development efficiency.
+**2. 代码共享与重用：** 不同项目之间可以方便地共享和重用代码，减少重复开发的工作量。这对于保持代码一致性和提高开发效率非常有利。
 
-**3. Unified Build and Deployment:** Monorepo simplifies the entire development process through a unified build and deployment workflow, reducing the complexity of configuration and management and enhancing collaboration efficiency within the development team.
+**3. 统一的构建和部署：** Monorepo 可以通过统一的构建和部署流程，简化整个开发过程，减少了配置和管理的复杂性，提高了开发团队的协作效率。
 
-**4. Unified Version Control:** With all projects in the same version control repository, version management becomes more consistent and controllable. This helps the team better track and handle version-related issues. The Monorepo design positions Celeris Web not only as an admin system template but also as a frontend web template for rapidly developing C-end products. With Celeris Web, the journey of frontend development becomes even more relaxed and enjoyable! 🚀
+**4. 统一的版本控制：** 所有项目都在同一个版本控制仓库中，使得版本管理更加一致和可控。这有助于团队协同开发时更好地追踪和处理版本问题。 Monorepo设计让Celeris Web不仅是一款后台管理系统模板，同时也是一个快速开发C端产品的前端Web模板。有了Celeris Web，前端开发之路将更加轻松愉快！🚀
 
-## Design Philosophy: Breaking the Limits of Admin Management, Focusing on C-End User Experience
+## 设计理念：突破Admin管理的局限性，关注C端用户体验
 
-In the market, most frontend templates primarily cater to the needs of B-end users, providing powerful features and flexible interfaces for enterprise management systems (Admin). However, few templates consider the characteristics of C-end products in their design, and this is where Celeris Web innovates.
+在市面上，大多数前端模板都着眼于满足B端用户的需求，为企业管理系统（Admin）提供了强大的功能和灵活的界面。然而，很少有模板将C端产品的特点纳入设计考虑，这正是我们Celeris Web的创新之处。
 
-**Breaking the Limits of Admin Management:**
+**突破Admin管理的局限性：**
 
-Traditional Admin management systems prioritize data display and business management, while C-end products emphasize user experience and visual appeal. Recognizing C-end users' demands for aesthetically pleasing interfaces and smooth interactions, Celeris Web not only offers robust backend management features but also focuses on elevating the frontend interface to a higher level of user satisfaction.
+传统的Admin管理系统更注重数据展示和业务管理，但C端产品更加侧重用户体验和视觉吸引力。我们深知C端用户对于界面美观、交互流畅的要求，因此Celeris Web不仅提供了强大的后台管理功能，更注重让前端界面在用户层面上达到更高水平。
 
-**Focusing on C-End User Experience:**
+**关注C端用户体验：**
 
-Celeris Web is not just a template for admin systems; it's a frontend web template that prioritizes the user experience for C-end products. We aim to break free from the constraints of traditional Admin systems by introducing innovative design principles, ensuring that C-end products presented on the frontend deliver an outstanding user experience.
+Celeris Web不仅仅是一个后台管理系统的模板，更是一个注重C端用户体验的前端Web模板。我们致力于打破传统Admin系统的束缚，通过引入崭新的设计理念，使得C端产品在前端呈现上具备更为出色的用户体验。
 
-**Highlighted Features:**
+**特色亮点：**
 
-- **Stylish and Aesthetic UI Design:** We prioritize visual aesthetics, utilizing modern design languages to make Celeris Web's UI not just a compilation of features but a visual feast that captivates C-end users.
-- **User-Friendly Interaction Experience:** Considering the habits and needs of C-end users, Celeris Web emphasizes interactive design. Through smooth animation effects and intuitive operations, users can experience unprecedented pleasure and convenience.
-- **Customizable Themes for Personalization:** Recognizing the diversity of C-end products, we provide a rich set of theme customization options, allowing each C-end project to have a unique appearance that perfectly aligns with personalized requirements.
+- **时尚美观的UI设计：** 我们注重界面的美感，采用现代化设计语言，使得Celeris Web的UI不仅仅是功能的堆砌，更是一种视觉盛宴，让C端用户爱不释手。
 
-With this unique design philosophy, Celeris Web strives to explore new possibilities in frontend development, injecting more vitality and creativity into C-end products. We believe that such innovation will garner widespread user recognition and contribute to higher product value. In the world of Celeris Web, frontend development transcends the confines of Admin systems, incorporating more exciting elements related to user experience.
+- **用户友好的交互体验：** 考虑到C端用户的习惯和需求，Celeris Web注重交互体验的设计，通过流畅的动画效果和直观的操作，使用户感受到前所未有的愉悦和便捷。
 
-## Future Development Roadmap: Targeting AIGC, Leading the Transformation of Internet Products
+- **个性化定制的主题支持：** 我们理解C端产品的多样性，因此提供了丰富的主题定制选项，让每个C端项目都能拥有独一无二的外观，更好地满足产品个性化的需求。
 
-With the rise of Artificial Intelligence and Graph Computing (AIGC) technologies, we have decided to shift the focus of Celeris Web's development towards driving the research and implementation of AIGC-related products. This strategic decision aims to align with the wave of transformation in internet products, paving the way for new possibilities in future technological innovation.
+通过这一独特的设计理念，Celeris Web致力于在前端开发领域探索全新的可能性，为C端产品注入更多活力和创意。我们相信，这样的创新将带来更广泛的用户认可和更高的产品价值。在Celeris Web的世界里，前端不再局限于Admin系统，而是融入了更多关于用户体验的精彩元素。
 
-**AIGC Technology Leading the Transformation:**
+## 后期发展路线：瞄准AIGC，引领互联网产品变革
 
-The emergence of AIGC signifies a technological revolution in the internet industry, bringing about more intelligent and interactive experiences for products. Celeris Web will actively respond to this transformation, committed to providing developers with superior tools to facilitate the creation of forward-looking AIGC applications.
+随着人工智能与图形计算（AIGC）技术的崛起，我们决定将Celeris Web的发展方向更加专注于推动AIGC相关产品的研发和落地。这一战略决策旨在顺应互联网产品的变革浪潮，为未来的科技创新开辟全新的可能性。
 
-**Development Focus on Templates:**
+**AIGC技术引领变革：**
 
-In the later stages of development, Celeris Web will pay increased attention to the research and development needs of AIGC-related products. We will introduce more functional modules tailored for artificial intelligence, enabling developers to build exceptional AIGC applications more conveniently and efficiently.
+AIGC的兴起标志着互联网产业迎来了一场技术变革，为产品带来更加智能、交互性更强的体验。Celeris Web将积极响应这一变革，致力于为开发者提供更优秀的工具，助力他们在AIGC领域创造更具前瞻性的产品。
 
-**Emphasis on Product Implementation:**
+**模板的研发重心：**
 
-In addition to technical research and development, we will strengthen support for the implementation of AIGC products. By providing comprehensive documentation, examples, and customized services, Celeris Web aims to assist developers in seamlessly integrating AIGC technology into their actual projects, achieving an organic fusion of technological innovation and business application.
+在后期的发展中，Celeris Web将更加重视AIGC相关产品的研发需求。我们将推出更多针对人工智能的功能模块，使开发者能够更便捷、高效地构建出色的AIGC应用。
 
-**Open Collaborative Ecosystem:**
+**专注产品落地：**
 
-To promote the wider application of AIGC technology, Celeris Web will actively build an open collaborative ecosystem. Collaborating closely with outstanding AIGC technology providers and developer communities, we aim to collectively drive the development of AIGC technology, contributing to the flourishing ecosystem of internet products.
+除了技术研发，我们将加强对AIGC产品落地的支持。通过提供详实的文档、示例和定制化服务，Celeris Web旨在帮助开发者更好地将AIGC技术融入他们的实际项目中，实现技术创新与商业应用的有机结合。
 
-The future development of Celeris Web will revolve around AIGC, and we look forward to exploring, innovating, and leading the future of internet products together with developers. Through continuous efforts and innovation, Celeris Web will become a leader in the AIGC field, empowering developers to create more intelligent and engaging internet products.
+**开放合作生态：**
 
-## Try it now!
+为了推动AIGC技术的更广泛应用，Celeris Web将积极构建开放合作生态。与行业内优秀的AIGC技术提供商、开发者社区保持密切合作，共同推动AIGC技术的发展，携手打造更加繁荣的互联网产品生态圈。
 
-### GitHub Template
+Celeris Web未来的发展将以AIGC为核心，我们期待在这个快速发展的技术领域中，与开发者们一同探索、创新，共同引领互联网产品的未来。通过持续的努力和创新，Celeris Web将成为AIGC领域的引领者，助力开发者创造更加智能、引人入胜的互联网产品。
 
-[Create a repo from this template on GitHub](https://github.com/kirklin/celeris-web/generate).
+## 快来试试吧！！
 
-### Clone to local
+### GitHub 模板
+
+[使用这个模板创建仓库](https://github.com/kirklin/celeris-web/generate).
+
+### 克隆到本地
 
 ```bash
 npx degit kirklin/celeris-web my-vite-app
@@ -203,39 +205,39 @@ cd my-vite-app
 pnpm i
 ```
 
-## Usage
+## 使用
 
-### Development
+### 开发
 
-Just run and visit http://localhost:8888
+只需要执行以下命令就可以在 http://localhost:8888 中看到
 
 ```bash
 pnpm run dev
 ```
 
-### Build
+### 构建
 
-To build the App, run
+构建该应用只需要执行以下命令
 
 ```bash
 pnpm run build
 ```
 
-And you will see the generated file in `dist` that ready to be served.
+然后你会看到用于发布的 `dist` 文件夹被生成。
 
-### Deploy on Netlify
+### 部署到 Netlify
 
-Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
+前往 [Netlify](https://app.netlify.com/start) 并选择你的仓库, 一路 `OK` 下去，稍等一下后，你的应用将被创建.
 
 ### Docker Production Build
 
-First, build the celeris-web image by opening the terminal in the project's root directory.
+首先，在项目的根目录下打开终端，构建celeris-web镜像。
 
 ```bash
 docker buildx build . -t celeris-web:latest
 ```
 
-Run the image and specify port mapping with the `-p` flag.
+运行镜像，用 "-p" 指定端口映射。
 
 ```bash
 docker run --rm -it -p 8080:80 celeris-web:latest
